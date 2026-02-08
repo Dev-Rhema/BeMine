@@ -1,7 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import heart from "./heart.gif";
-import teddy from "./teddy.gif";
 
 const App = () => {
   const [screen, setScreen] = useState("404");
@@ -108,7 +106,7 @@ const App = () => {
       return (
         <div className="relative w-[120px] h-[120px] mx-auto animate-shake">
           <div>
-            <img src={heart} alt="" />
+            <img src="/heart.gif" alt="" />
           </div>
           {noClickCount >= 2 && (
             <>
@@ -283,7 +281,7 @@ const App = () => {
             className="bg-white p-10 md:p-16 text-white text-center max-w-3xl w-full border-8 border-pink-500 shadow-pixel"
           >
             <div className="w-full flex items-center justify-center mb-4">
-              <img src={teddy} alt="" />
+              <img src="/teddy.gif" alt="" />
             </div>
 
             <motion.h2
