@@ -176,7 +176,7 @@ const App = () => {
             >
               PAGE NOT FOUND...
               <br />
-              OR IS IT YOU, MY GLOWY?
+              OR IS IT YOU, BIANI?
               <br />
               <span className="text-xs text-slate-500">
                 oya click the button😉
@@ -222,7 +222,7 @@ const App = () => {
             >
               WILL YOU BE
               <br />
-              <span className="md:text-2xl"> MY VALENTINE</span>, MY GLOWY?
+              <span className="md:text-2xl"> MY VALENTINE</span>, BIANI?
             </motion.h2>
 
             <AnimatePresence>
